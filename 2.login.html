@@ -1,0 +1,21 @@
+<html>
+    <head> <title>登入</title> </head>
+    <body>
+        #action 呼叫的php程式
+        #建一個表單，當使用者送出時，資料會以 POST 方法送到 2.login.php
+        <form action="2.login.php"method=post>
+            # type="text" 表示帳號輸入框
+            #name 傳遞參數的變數名稱
+            #輸入帳號的欄位 name="id"  
+            帳號：<input type=text name="id"><br />
+
+            # type="password" 表示密碼輸入框
+            ##name 傳遞參數的變數名稱
+            #輸入密碼的欄位 type="password"  name="pwd" 
+            密碼：<input type=password name="pwd"><p></p>
+
+            <input type=submit value="登入"> # type="submit"表示登入輸入框 顯示文字為「登入」
+            <input type=reset value="清除"> # type="reset"表示清除輸入框 顯示文字為「清除」
+        </form>
+    </body>
+</html>
