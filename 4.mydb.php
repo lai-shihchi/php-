@@ -9,9 +9,11 @@
     #$row["欄位名稱"]
     echo $row["id"] . " " . $row["pwd"]."<br>"; 
     $row=mysqli_fetch_array($result);#抓一筆資料
+    echo $row["id"] . " " . $row["pwd"]."<br>";
+    $row=mysqli_fetch_array($result);#抓一筆資料
     echo $row["id"] . " " . $row["pwd"];
-     $row=mysqli_fetch_array($result);#抓一筆資料
-    echo $row["id"] . " " . $row["pwd"];
-     $row=mysqli_fetch_array($result);#抓一筆資料
-    echo $row["id"] . " " . $row["pwd"];
+    $row=mysqli_fetch_array($result);#抓一筆資料
+    echo $row["id"] . " " . $row["pwd"]."<br>";
+    $row=mysqli_fetch_array($result);#抓一筆資料
+    echo $row["id"] . " " . $row["pwd"]."<br>";
 ?>
