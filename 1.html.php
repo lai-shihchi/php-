@@ -1,6 +1,6 @@
 <html>
-    <head> //html主體
-        <title>我的第一個php程式</title> //網頁的標題
+    <head> 
+        <title>我的第一個php程式</title> #瀏覽器分頁上顯示的標題
     </head>      
     <body>  
         <h1>php程式</h1> //html的內文
