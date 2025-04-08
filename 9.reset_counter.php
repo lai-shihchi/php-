@@ -1,5 +1,5 @@
 <?php
-    ////讀取/操作session變數之前，需呼叫session_start()，才能夠跨網頁
+    //讀取/操作session變數之前，需呼叫session_start()，才能夠跨網頁
     session_start();
     /*
     刪除Session變數
